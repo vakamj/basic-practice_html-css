@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    width: 700px;
+}
+
+.framework {
+    margin-top: 40px;
+    margin-left: 47px;
+    width: 360px;
+    height: 557px;
+    background: white;
+    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    position: relative;
+    
+}
+
+.bg {
+    margin-top: -23px;
+    margin-left: 158px;
+    width: 41 px;
+    height: 35 px;
+    position: absolute;
+}
+
+.forma1 {
+    margin-top: -16px;
+    margin-left: 169px;
+    width: 26px;
+    height: 20px;
+    border-radius: 2px;
+    color: #ffffff(128,0.5,0.5,0.25);
+    position: absolute;
+}
+
+.forma1__photo {
+    width: 26px;
+    height: 20px;
+    border-radius: 2px;
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 169px;
+    
+}
+
+.section__adventures {
+    text-transform: uppercase;
+    width: 700px;
+    margin-left: -165px;
+    text-align: center;
+}
+
+.section__adv {
+    padding: 44px 0 0 0;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+.section__gall {
+    margin-top: -16px;
+    
+    font-size: 20px;
+    letter-spacing: 1.7px;
+    line-height: 28px;
+    color: #212121;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.section__date {
+    margin-top: -13px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Hind", sans-serif;
+}
+
+.section__read__more {
+    padding: 7.5px 0 0 0;
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 24px;
+    color: #999999;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.section__read__more:hover {
+    color: #d67900;
+}
+
+.section__line1 {
+    margin-top: 8px;
+    width:31px;
+    border-top: 1px solid #d5d5d5;
+    height:1px;   
+    position:absolute;
+    left:166px
+}
+
+.section__line1:hover {
+    border-color: #d67900;
+}
+
+.section__line2 {
+    margin-top: -15px;
+    width:31px;
+    border-bottom:1px solid #d5d5d5;
+    height:1px;   
+    position:absolute;
+    left:166px
+}
+
+.section__line2:hover {
+    border-color: #d67900;
+}
+
+.section__line3 {
+    border-bottom:0.72px solid #d5d5d5;
+    padding: 20px 0 0 0;
+    width: 360px;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+.comment {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 16px;
+    height: 12px;
+    color: hsla(128,0.5,0.5,0.25);
+    background-image: url(../images/Icon.png);
+    background-position: left center;
+  }
+
+  .comment_text {
+    text-transform: uppercase;
+    margin-top: -32px;
+    margin-left: 54px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Hind";
+  }
