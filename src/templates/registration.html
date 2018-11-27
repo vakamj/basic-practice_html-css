@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>base</title>
+    <link rel="stylesheet" href="../styles/registration.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <h1 class="header"> Давайте начнем!</h1>
+        <fieldset class="fieldset__account">
+            <ul class="account__links">
+                <li class="account__item">
+                    <label for="first_name">Имя</label>
+                    <input class="item__text" id="first_name" type="text" name="first_name" placeholder="Чендлер">
+                </li>
+
+                <li class="account__item">
+                    <label for="last_name">Фамилия</label>
+                    <input class="item__text" id="last_name" type="text" name="last_name" placeholder="Бинг">
+                </li>
+
+                <li class="account__item">
+                    <label>Ваш пол</label>
+                    <label class="status__item" for="status_women">
+                        <input id="status_women" type="radio" name="status" checked>
+                        Женский
+                    </label>
+                    <label class="status__item" for="status_men">
+                        <input id="status_men" type="radio" name="status">
+                        Мужской
+                    </label>
+                </li>
+
+                <li class="account__item">
+                    <label for="email-address">
+                        Введите электронный адрес</label>
+                    <input class="item__text" id="email-address" type="email" name="email-address" placeholder="email@gmail.com">
+                </li>
+
+                <li class="account__item">
+                    <label for="password">Придумайте пароль</label>
+                    <input class="item__text" id="password" type="password" name="password" placeholder="• • • • • •">
+                </li>
+
+                <li class="account__item">
+                    <label class="item__terms_of_use">
+                        <input type="checkbox" name="terms">
+                        Я принимаю условия <a href="/terms">Пользовательского соглашения </a>
+                        и даю своё согласие на обработку моих персональных данных
+                        на условиях, определенных <a href="/terms">Политикой конфиденциальности.</a>
+                    </label>
+                </li>
+                
+                <li class="account__item">
+                    <input class="button" type="submit" name="submit" value="Зарегистрироваться">
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+</body>
+
+</html>
